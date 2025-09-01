@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #0f1010;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto;
+}
+.footer-content {
+  margin: 11px 0;
+  padding: 0 25px;
+}
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 1.75;
+}
+.footer-title {
+  margin-bottom: 16px;
+}
+.box {
+  margin: 0 0 60px 60px;
+  max-width: 260px;
+}
+.box-line {
+  opacity: 0.1;
+  margin: 0 0 60px 25px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  margin-bottom: 16px;
+}
+.hackathon {
+  margin-left: 19px;
+}
+footer p,
+ul {
+  color: #c7c6c6;
+  font-weight: 400;
+  font-size: 16px;
+}
