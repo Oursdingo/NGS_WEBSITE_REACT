@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -5,7 +8,7 @@
 }
 
 .navigation{
-    background-color:#f1faee;
+    background-color:rgb(250, 244, 249);
     display: flex;
     height: 16vh;
     align-items: center;
@@ -13,6 +16,7 @@
     padding: 0 150px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
+     
 }
 
 .logo-section{
@@ -76,7 +80,7 @@
 
 .ia-section{
     height: 100vh;
-    background-color:#f1faee;
+    background-color:rgb(250, 244, 249);
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -137,6 +141,127 @@
      border:2px solid rgb(75, 47, 75);
 
 }
+
+
+.vision-section{
+
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+
+.vision-section .title-section{
+
+    font-size: 60px;
+
+
+}
+
+.vision-section .subtitle-section{
+    margin: 25px 0;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+
+.vision-section .description{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 0 305px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 400;  
+}
+
+.vision-section .cards{
+    height: 450px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    gap:0px;
+    padding: 0 85px;
+    
+}
+
+.vision-section .cards .card {
+    cursor: pointer;
+    height: 350px;
+    width: 350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #6a79815d;
+    transition: 0.4s ease;
+}
+
+.vision-section .cards .card:hover{
+     border: 1px solid #023047;
+}
+ 
+
+.vision-section .cards .card .circle{
+    height: 80px;
+    width: 80px;
+    background:linear-gradient(to right,#023047,rgb(112, 103, 119));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+ 
+
+.vision-section .cards .card .smalltext{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-align: center;
+   
+
+}
+
+
+
+.vision-section .cards .card .smalldescription{
+    text-align: center;
+    font-weight: 50;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
